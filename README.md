@@ -40,7 +40,7 @@ Aether is an interactive, web-based 3D particle simulator built using **React + 
 Requirements: .NET 7+ SDK
 
 ```
-cd AetherAPI
+cd AetherBackend
 dotnet restore
 dotnet run
 ```
