@@ -39,9 +39,11 @@ Aether is an interactive, web-based 3D particle simulator built using **React + 
 ### 1. 🖥️ Backend (ASP.NET Core)
 Requirements: .NET 7+ SDK
 
-cd backend
+```
+cd AetherAPI
 dotnet restore
 dotnet run
+```
 API runs on: http://localhost:5291
 
 Saved files are stored in: ./SavedConfigs
@@ -49,9 +51,11 @@ Saved files are stored in: ./SavedConfigs
 ### 2. 🌐 Frontend (React)
 Requirements: Node.js 18+, Vite
 
-cd frontend
+```
+cd aether-web
 npm install
 npm run dev
+```
 App runs on: http://localhost:5173
 
 Connects to backend API via fetch() from api.js
@@ -66,6 +70,7 @@ Connects to backend API via fetch() from api.js
 ---
 
 ## 📁 Save File Format (JSON)
+```
 {
   "Name": "my-config",
   "SavedAt": "2025-06-12T18:31:00Z",
@@ -79,3 +84,4 @@ Connects to backend API via fetch() from api.js
     }
   ]
 }
+```
