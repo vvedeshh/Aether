@@ -63,9 +63,8 @@ Connects to backend API via fetch() from api.js
 ---
 
 ## 🚀 Keyboard Shortcuts
-- Key	Action
-- E	Spawn particle(s) at mouse
-- F	Apply random force to all particles
+- E to Spawn particle(s) at mouse
+- F	to Apply random force to all particles
 
 ---
 
