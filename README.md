@@ -13,7 +13,7 @@ Aether is an interactive, web-based 3D particle simulator built using **React + 
 - 📂 **Browse and search saved configs**, with sorting by particle count or recency
 - 🌐 **Backend API** using ASP.NET Core to manage config files with binary search tree and linked list logic
 - 📊 **HUD** overlay displaying particle count, zoom, and frame rate
-- 🧪 Built with **ICS4U concepts**: OOP, file I/O, recursion, data structures (BST, linked list), and sorting
+- 🧪 Built with **ICS4U concepts**: OOP, file I/O, recursion, data structures (BST, linked list, stacks), and sorting
 
 ---
 
